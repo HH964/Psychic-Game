@@ -24,10 +24,10 @@ document.onkeydown= function (event){
         }
         // else{
         //     if (choicesGuessed.includes(userInput)){
-        //         var isSameKey= false;
+        //         var isSameKey= true;
         //         for (var i=0; i<userInput.length; i++){
         //             if(userInput === userInput[i]){
-        //                 isSameKey= true;
+        //                 isSameKey= false;
         //                 break;
         //             }
         //         }
