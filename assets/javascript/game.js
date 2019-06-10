@@ -13,7 +13,7 @@ document.onkeydown= function (event){
     // console.log(choicesGuessed);
     // console.log(numofWins);
     // console.log(numofLosses);
-    console.log(guessesLeft);
+    // console.log(guessesLeft);
     // console.log();
     if (choice.indexOf(userInput) > -1){
         
@@ -22,18 +22,17 @@ document.onkeydown= function (event){
             choicesGuessed=[];
             guessesLeft= 9;
         }
-        else{
-            if (choicesGuessed.includes(userInput)){
-                var isSameKey= false;
-                for (var i=0; i<userInput.length; i++){
-                    if(userInput != userInput[i]){
-                        isSameKey= true;
-                        break;
-                    }
-                }
-            }
-
-        }
+        // else{
+        //     if (choicesGuessed.includes(userInput)){
+        //         var isSameKey= false;
+        //         for (var i=0; i<userInput.length; i++){
+        //             if(userInput === userInput[i]){
+        //                 isSameKey= true;
+        //                 break;
+        //             }
+        //         }
+        //     }
+        // }
 
         if (guessesLeft === 0){
             guessesLeft= 9;
